@@ -134,4 +134,16 @@ public class AccountBalanceCalculatorTest {
         assertTrue(historyAfterSecondCalc.containsAll(secondTransactions), "Transaction history should contain the second set of transactions");
         assertFalse(historyAfterSecondCalc.containsAll(firstTransactions), "Transaction history should not contain the first set of transactions after the second calculation");
     }
+
+    @Test
+    void testNegativeBalance() {
+        // Withdrawal greater than balance should not execute
+        List<Transaction> transactions = Arrays.asList(
+                new Transaction(TransactionType.DEPOSIT, 100),
+                new Transaction(TransactionType.WITHDRAWAL, 150)
+        );
+
+        int balance = AccountBalanceCalculator.calculateBalance(transactions);
+        assertEquals(100, balance, "Balance should never be negative");
+    }
 }
