@@ -10,6 +10,8 @@
 
 تابع `calculateBalance` پس از اصلاحات:
 
+</div>
+
 ```java
 ... //before
 
@@ -22,5 +24,3 @@ else if (t.getType() == TransactionType.WITHDRAWAL) {
 
 ... //after
 ```
-
-</div>
