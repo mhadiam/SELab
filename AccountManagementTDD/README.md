@@ -8,9 +8,9 @@
 
 - پرسش دوم: پس از یافتن خطا، یک آزمون برای آن بنویسید که منجر به کشف آن خطا شود. سپس آن را به گونه‌ای اصلاح کنید که آن مورد آزمون، پاس شود. نام تابع آزمون برای کشف خطا `testNegativeBalance`. همچنین تغییرات لازم برای بررسی برداشت بیش از موجودی (که به موجودی منفی می‌انجامد) نیز در تابع `calculateBalance` انجام شده است. این تغییرات با فرض اینکه تراکنش‌ها به صورت متوالی اجرا می‌شوند (یعنی لازم نیست همه با هم اجرا شوند) صورت گرفته. و نیز اگر یک تراکنش انجام نشد می‌توانیم تراکنش بعدی را از لیست تراکنش‌ها اجرا کنیم (این قسمت رو چون واضح نبود با فرض خودم زدم).
 
-<div dir="ltr">
+`calculateBalance` پس از اصلاحات:
 
-`calculateBalance` after negative balance check:
+<div dir="ltr">
 
 ```java
 ... //before
@@ -18,7 +18,7 @@
 else if (t.getType() == TransactionType.WITHDRAWAL) {
   if (t.getAmount() < balance) {
       balance -= t.getAmount();
-      transactionHistory.add(t);          // Store latest transactions
+      transactionHistory.add(t);
   }
 }
 
