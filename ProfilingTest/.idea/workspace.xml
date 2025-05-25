@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4a2e3a-9677-4921-845a-b0ce6f9923fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SearchAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProfilingTest/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProfilingTest/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProfilingTest/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProfilingTest/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProfilingTest/JavaCup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProfilingTest/JavaCup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProfilingTest/MainSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProfilingTest/MainSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProfilingTest/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProfilingTest/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCup.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c4a2e3a-9677-4921-845a-b0ce6f9923fa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,10 +51,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1024" />
@@ -99,22 +90,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.JavaCup.executor": "Profile ",
-    "Application.SearchAlgorithms.executor": "Profile ",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JavaCup.executor&quot;: &quot;Profile &quot;,
+    &quot;Application.SearchAlgorithms.executor&quot;: &quot;Profile &quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SearchAlgorithms">
     <configuration name="JavaCup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaCup" />
@@ -160,6 +151,7 @@
       <workItem from="1543847729595" duration="613000" />
       <workItem from="1543848414673" duration="478000" />
       <workItem from="1746814710498" duration="4073000" />
+      <workItem from="1748167879166" duration="33000" />
     </task>
     <servers />
   </component>
