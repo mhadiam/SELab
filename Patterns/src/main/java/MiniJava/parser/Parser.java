@@ -9,6 +9,8 @@ import java.util.Stack;
 import MiniJava.Log.Log;
 import MiniJava.codeGenerator.CodeGenerator;
 import MiniJava.errorHandler.ErrorHandler;
+import MiniJava.facade.ParseTableFacade;
+import MiniJava.facade.RuleFacade;
 import MiniJava.scanner.lexicalAnalyzer;
 import MiniJava.scanner.token.Token;
 
@@ -22,19 +24,8 @@ public class Parser {
     public Parser() {
         parsStack = new Stack<Integer>();
         parsStack.push(0);
-        try {
-            parseTable = new ParseTable(Files.readAllLines(Paths.get("src/main/resources/parseTable")).get(0));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        rules = new ArrayList<Rule>();
-        try {
-            for (String stringRule : Files.readAllLines(Paths.get("src/main/resources/Rules"))) {
-                rules.add(new Rule(stringRule));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        parseTable = new ParseTableFacade("src/main/resources/parseTable").getParseTable();
+        rules = new RuleFacade("src/main/resources/Rules").getRules();
         cg = new CodeGenerator();
     }
 
